@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "order_from_playpen"
+  gem.name          = "order_form_playpen"
   gem.require_paths = ["lib"]
   gem.version       = OrderFormPlaypen::VERSION
   gem.add_dependency('httparty', '~> 0.8.3')
