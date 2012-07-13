@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 gem('order_form_playpen',
-    :git => 'https://git@github.com/Cardguy/order_form_playpen.git')
+    :git => 'https://git@github.com/cardguy/order_form_playpen.git')
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
